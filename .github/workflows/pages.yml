@@ -33,7 +33,7 @@ jobs:
       - name: Prepare site
         run: |
           mkdir -p _site
-          cp -R samir/app/. _site/
+          cp -R samir/app/d/. _site/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
